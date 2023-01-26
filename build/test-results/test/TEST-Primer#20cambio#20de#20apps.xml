@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Primer cambio de apps" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-01-26T00:57:37" hostname="SQAMED-88970" time="90.855">
+  <properties/>
+  <testcase name="validar primer cambio  de apps 0$" classname="Primer cambio de apps" time="90.855">
+    <failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SQAMED-88970', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {appActivity: .MainActivity, appPackage: movistar.android.app, databaseEnabled: false, desired: {appActivity: .MainActivity, appPackage: movistar.android.app, deviceName: SM-G610M, enableMultiWindows: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: 52039125ee3064fb}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G610M, deviceName: 52039125ee3064fb, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 52039125ee3064fb, enableMultiWindows: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, udid: 52039125ee3064fb, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 208bb3d5-5365-4793-945a-73fbe6f48428&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).index(0)).scrollIntoView(new UiSelector().text(&quot;Otros servicios&quot;))}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-88970', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .MainActivity, appPackage: movistar.android.app, databaseEnabled: false, desired: {appActivity: .MainActivity, appPackage: movistar.android.app, deviceName: SM-G610M, enableMultiWindows: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: 52039125ee3064fb}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G610M, deviceName: 52039125ee3064fb, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 52039125ee3064fb, enableMultiWindows: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, udid: 52039125ee3064fb, viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 208bb3d5-5365-4793-945a-73fbe6f48428
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).index(0)).scrollIntoView(new UiSelector().text(&quot;Otros servicios&quot;))}
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base@11.0.15.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@11.0.15.1/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at app//io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at app//io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at app//io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at app//io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at app//io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at app//io.appium.java_client.MobileBy.findElement(MobileBy.java:61)
+	at app//io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:224)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at app//io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at app//io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at app//testing.sqa.interactions.ScrollDown2.performAs(ScrollDown2.java:15)
+	at app//testing.sqa.interactions.ScrollDown2$$EnhancerByCGLIB$$6521cfb9.CGLIB$performAs$0(&lt;generated&gt;)
+	at app//testing.sqa.interactions.ScrollDown2$$EnhancerByCGLIB$$6521cfb9$$FastClassByCGLIB$$cc71c85f.invoke(&lt;generated&gt;)
+	at app//net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at app//testing.sqa.interactions.ScrollDown2$$EnhancerByCGLIB$$6521cfb9.performAs(&lt;generated&gt;)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at app//testing.sqa.tasks.PrimerCambio.performAs(PrimerCambio.java:27)
+	at app//testing.sqa.tasks.PrimerCambio$$EnhancerByCGLIB$$3ecd594b.CGLIB$performAs$0(&lt;generated&gt;)
+	at app//testing.sqa.tasks.PrimerCambio$$EnhancerByCGLIB$$3ecd594b$$FastClassByCGLIB$$15203136.invoke(&lt;generated&gt;)
+	at app//net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at app//testing.sqa.tasks.PrimerCambio$$EnhancerByCGLIB$$3ecd594b.performAs(&lt;generated&gt;)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at app//stepdefinitions.PrimerCambioAppsStepDefinitions.daClickEnBotonAceptar(PrimerCambioAppsStepDefinitions.java:26)
+	at ✽.da click en boton aceptar(src/test/resources/features/PrimerCambioApps.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[scroll
+]]></system-out>
+  <system-err><![CDATA[ene 25, 2023 7:57:53 P. M. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: validar primer cambio  de apps 0$
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP scroll down2
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - An element could not be located on the page using the given search parameters.
+]]></system-err>
+</testsuite>
